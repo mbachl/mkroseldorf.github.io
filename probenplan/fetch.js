@@ -11,13 +11,13 @@ function fetch() {
     request.open("GET", url);
     request.send();
     
-    request.onreadystatechange = (e) => {
+    request.onreadystatechange = function(e) {
         if(request.readyState===4) {
             let events = JSON.parse(request.responseText);
     
             let eventsHtml="";
 
-            events.forEach(event => {
+            events.forEach(function(event) {
                 const time = timeFormat.format(event.dtstart);
                 const date = dateFormat.format(event.dtstart);
                 const weekday = weekdayFormat.format(event.dtstart);
