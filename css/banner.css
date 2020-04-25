@@ -1,0 +1,23 @@
+#banner {
+	position: relative;
+}
+
+#banner > img {
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+#banner > img:not(:first-of-type) {
+	position: absolute;
+}
+
+#banner > img {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#banner > img.visible {
+  opacity: 1;
+  transition: opacity 1s;
+}

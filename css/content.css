@@ -1,0 +1,32 @@
+.content {
+	min-height: 300px;
+	padding: 30px;
+	background-color: #ffffff;
+}
+
+.content img {
+	border: 0;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+
+
+.content p, .content img {
+	margin: 10px;
+}
+
+.content table {
+	margin: auto;
+}
+
+.content td {
+	padding: 20px;
+}
+
+.bannerContent {
+	background-color: rgb(246, 247, 248);
+	min-height: 50px;
+}

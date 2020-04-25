@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: Verdana;
+	//min-width: 814px;
+}
+
+.alles {
+	min-width: 970px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width:1200px) {
+}
+
+.alles a {
+	color: #000000;
+}
+
+.oben {
+	height: 120px;
+	background: #ffffff url("../img/header/noten.png") top right no-repeat;
+	//background-size: 35%;
+	position: sticky;
+  	top: 0;
+	//opacity: 0.95;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.wappen {
+	float: left;
+}
+
+.verein {
+	height: 90px;
+	font-size: 40px;
+	padding-left: 125px;
+}
+
+
+.main {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.main > div {
+	margin-top: 10px;
+}
+
+
+.banner {
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	z-index: -1;
+}
+
+@media (orientation: portrait) {
+	.content, .probenplan, .bannerContent {
+		font-size: 200%;
+	}
+}
+
+
+.probenplan {
+ background-color: #ffffff;
+ margin-bottom: 10px;
+ padding: 5px;
+}
+
+.linksBox {
+	height: 150px;
+	background-color: #ffffff;
+}
+
+.linksBox img {
+	height: 100%;
+	display: block; 
+	float: left;
+	margin-right: 3%;
+}
+
+.unten {
+	height: 50px;
+	text-align: center;
+	background-color: #ffffff;
+	clear: both;
+}
+
+.at:after {
+	content: "@";
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.centered {
+	text-align: center;
+}
+
+.anchor {
+	position: relative;
+	top: -160px;
+	visibility: hidden;
+}

@@ -1,0 +1,38 @@
+.navigation {
+	height: 30px;
+}
+
+.navigation li {
+	list-style: none;
+}
+
+.navigation a {
+	text-decoration: none;
+}
+
+.navigation > ul > li {
+	float: left;
+}
+
+.navigation > ul > li > a {
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 30px;
+	display: block;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.navigation > ul:hover > li > a {
+	color: #000000;
+	background: none;
+}
+
+.navigation > ul > li:hover > a, .navigation > ul > li > .active {
+	color: #FFCC00;	
+	background: #000000;
+}
+
+.navigation > ul > li > a > span {
+	vertical-align: middle;
+}
