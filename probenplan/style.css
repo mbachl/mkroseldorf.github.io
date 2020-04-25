@@ -1,0 +1,26 @@
+body {
+ font-family: sans-serif;
+}
+
+td {
+ padding: 2px;
+}
+
+.date {
+ white-space: pre;
+}
+
+
+tr:nth-child(even) {
+ background: lightgrey;
+}
+
+tr[data-priority=high] {
+ color: darkred;
+ font-weight: bold;
+}
+
+tr[data-priority=medium] {
+ color: darkorange;
+ font-weight: bold;
+}
